@@ -1,3 +1,6 @@
+import { inject } from '@vercel/analytics';
+inject();
+
 // select marques
 const brands = ["Choisir une marque", "Ethiquable", "Milka", "Kaoka", "Kinder", "Bonnat", "Lindt", "Michel-Cluizel"]
 const categories = ["Choisir une catégorie", "Snacks", "Chocolats", "Chocolats noirs", "Barres", "Pâtes à tartiner", "Chocolats de Noël"]
