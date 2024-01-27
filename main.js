@@ -1,5 +1,7 @@
 import { inject } from '@vercel/analytics';
 inject();
+import { injectSpeedInsights } from '@vercel/speed-insights'; 
+injectSpeedInsights();
 
 // select marques
 const brands = ["Choisir une marque", "Ethiquable", "Milka", "Kaoka", "Kinder", "Bonnat", "Lindt", "Michel-Cluizel"]
